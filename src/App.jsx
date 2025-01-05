@@ -1,15 +1,20 @@
-
-import './App.css'
-import Footer from './components/Footer'
+import "./App.css";
+import Hero from "./assets/Hero";
+import Article from "./components/Article";
+import Banking from "./components/Banking";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
-
   return (
     <>
-      <p className='text-3xl'>hello</p>
-      <Footer/>
+      <Navbar />
+      <Hero/>
+      <Banking />
+      <Article />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
